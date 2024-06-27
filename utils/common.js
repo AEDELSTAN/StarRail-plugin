@@ -2,7 +2,7 @@ import { exec} from 'child_process'
 import User from '../../genshin/model/user.js'
 import { getStoken} from './authkey.js'
 
-export const rulePrefix = '((#|\\*)?(星铁|星轨|崩铁|星穹铁道|铁道|sr)|\\*|＊)'
+export const rulePrefix = '((#|\\*)?(星铁|星轨|崩铁|星穹铁道|铁道|sr))'
 
 export async function checkPnpm () {
   let npm = 'npm'
