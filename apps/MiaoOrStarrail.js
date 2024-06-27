@@ -3,7 +3,7 @@ import cfg from '../../../lib/config/config.js'
 
 let SR = {
   miao: true,
-  sr: true
+  sr: false
 }
 
 /**
